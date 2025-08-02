@@ -1,0 +1,181 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+
+header {
+    background-color: #330949;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header h2 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+#TaskEntry {
+    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+}
+
+#subButton {
+    padding: 10px 20px;
+    background-color: #a77bc5;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+#subButton:hover {
+    background-color: #330949;
+}
+
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.profile-section img {
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.profile-text h5 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.profile-text p {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+
+main h5 {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+main p {
+    font-size: 16px;
+    max-width: 500px;
+}
+
+form {
+    margin-top: 20px;
+    max-width: 400px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #a77bc5;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #330949;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-row label {
+    width: 100px;
+    font-weight: bold;
+}
+
+.form-row input,
+.form-row textarea {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
